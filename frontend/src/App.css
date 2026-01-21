@@ -1,0 +1,45 @@
+.app
+{
+  width: 100vw;
+  height: 100vh;
+  min-height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.circle-blur
+{
+  position: absolute;
+  bottom: 70%;
+  width: 100%;
+  min-width: 400px;
+  max-width: 600px;
+  aspect-ratio: 1;
+  background-color: rgba(238, 43, 0, 0.2);
+  border-radius: 100%;
+  filter: blur(4rem);
+}
+
+.barButton
+{
+  width: 100px;
+  height: 102%; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  opacity: 0.5;
+}
+
+.barButton:hover
+{
+  opacity: 1;
+  border-bottom: 2px solid #FFBE18;
+  background: linear-gradient(rgba(0, 0, 0, 0), 93%, #FFBE18);
+}
