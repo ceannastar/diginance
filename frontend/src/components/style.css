@@ -1,0 +1,28 @@
+.widget
+{
+  width: 170px;
+  height: 100%; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background: linear-gradient(to top,rgba(255, 255, 255, 0.01), 85%,rgba(255, 188, 17, 0.1));
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+}
+
+.barButton
+{
+  width: 100px;
+  height: 102%; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  opacity: 0.5;
+}
+
+.barButton:hover
+{
+  opacity: 1;
+  border-bottom: 2px solid #FFBE18;
+  background: linear-gradient(rgba(0, 0, 0, 0), 93%, #FFBE18);
+}
